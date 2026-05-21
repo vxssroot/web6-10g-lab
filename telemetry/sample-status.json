@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-05-21T13:24:00Z",
+  "node_id": "10g-core-7f3a9k2",
+  "status": "ACTIVE",
+  "agentnet": {
+    "active_agents": 87,
+    "consensus_health": "NOMINAL"
+  },
+  "quantum_link": {
+    "attestation": "VERIFIED",
+    "key_rate": "3.8 Gbps"
+  }
+}
