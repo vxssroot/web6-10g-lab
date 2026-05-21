@@ -1,0 +1,8 @@
+{
+  "name": "planetary-mesh-alpha",
+  "nodes": 42,
+  "regions": ["orbital-1", "terrestrial-eu", "terrestrial-af", "lunar-relay"],
+  "links": 187,
+  "average_hops": 3.2,
+  "simulation_timestamp": "2026-05-21T13:45:00Z"
+}
