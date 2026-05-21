@@ -1,10 +1,8 @@
-# 10G CLI
-
-## Core Commands
+# 10G CLI Reference
 
 ```bash
-10g init
-10g node status
-10g agent spawn
-10g mesh join
+10g node init --sovereign
+10g status --watch
+10g mesh join --compute 1024GB
+10g agent spawn --model strategic
 ```

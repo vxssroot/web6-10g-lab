@@ -1,26 +1,30 @@
 # RFC-10G-001: Autonomous Network Fabric
 
 **Status:** Experimental
-**Version:** 0.1
+**Version:** 0.1.0
 **Date:** 2026-05-21
 
 ## Abstract
 
-The 10G Autonomous Network Fabric defines the foundational layer for self-organizing, self-healing, and intelligent packet routing in the Web6 infrastructure stack.
+The 10G Autonomous Network Fabric defines a self-organizing, self-healing, and self-optimizing networking substrate that integrates distributed intelligence directly into the forwarding plane.
 
-## Motivation
-Traditional routing protocols lack native intelligence and adaptive capabilities required for planetary-scale machine-to-machine economies.
+## Core Principles
+- Intelligence at line rate
+- Cryptographic verifiability of every route decision
+- Continuous simulation-to-reality synchronization
 
-## Core Concepts
-- Intent-driven routing
-- Distributed consensus on path selection
-- Real-time telemetry integration into forwarding plane
+## Node Lifecycle States
+- GENESIS
+- ATTESTING
+- SYNCHRONIZED
+- ACTIVE
+- DEGRADED
+- QUARANTINED
 
 ## Threat Model
-- Byzantine node behavior
-- Quantum-capable adversaries
-- Coordinated traffic analysis attacks
+- Byzantine routing attacks
+- Quantum adversary
+- AI model poisoning vectors
 
-## Future Research Questions
-- Convergence guarantees under high agent density
-- Formal verification of intent translation
+**Future Research Questions**
+- Formal verification of autonomous routing convergence under partial network partitions.

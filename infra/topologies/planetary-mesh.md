@@ -1,10 +1,16 @@
 # Planetary Mesh Topology
 
-Multi-region, multi-orbit deployment model for 10G infrastructure.
+Proposed global deployment topology for full 10G realization.
+
+## Regions
+- Orbital Edge (LEO constellation)
+- Continental Hubs
+- Metro Meshes
+- Edge Clusters
 
 ```mermaid
 graph LR
-    Ground[Ground Stations] <--> LEO[LEO Constellation]
-    LEO <--> MEO[MEO Nodes]
-    MEO <--> Core[Planetary Core Fabric]
+    Orbital[Orbital Gateways] <--> Continental[Continental Hubs]
+    Continental <--> Metro[Metro Meshes]
+    Metro <--> Edge[Edge Nodes]
 ```

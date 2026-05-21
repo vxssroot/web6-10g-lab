@@ -1,13 +1,17 @@
 {
-  "timestamp": "2026-05-21T13:24:00Z",
-  "node_id": "10g-core-7f3a9k2",
-  "status": "ACTIVE",
+  "timestamp": "2026-05-21T13:26:00Z",
+  "node_id": "10g-node-7f3a9k2m",
+  "status": "SYNCHRONIZED",
+  "10g_core": {
+    "sync_status": "complete",
+    "latency_p99": "1.2ms"
+  },
   "agentnet": {
-    "active_agents": 87,
-    "consensus_health": "NOMINAL"
+    "active_agents": 47,
+    "consensus_round": 892
   },
   "quantum_link": {
-    "attestation": "VERIFIED",
+    "attestation": "valid",
     "key_rate": "3.8 Gbps"
   }
 }
