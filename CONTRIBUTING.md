@@ -1,3 +1,3 @@
-# Contributing to Web6 10G Lab
+# Contributor Guidelines
 
 Only frontier-level contributions accepted.
