@@ -1,3 +1,3 @@
 # Contributor Guidelines
 
-Only frontier-level contributions accepted.
+Only submit if you operate at frontier systems level...
