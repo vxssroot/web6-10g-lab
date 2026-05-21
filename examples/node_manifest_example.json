@@ -1,0 +1,12 @@
+{
+  "node_id": "10g-node-7f3a9k2",
+  "version": "0.1.0-alpha",
+  "capabilities": ["agentnet", "quantumlink", "meshcompute"],
+  "trust_score": 0.984,
+  "location": "edge-zone-42",
+  "lifecycle_state": "OPERATIONAL",
+  "attestation": {
+    "quantum_link_health": 0.997,
+    "last_sync": "2026-05-21T13:42:11Z"
+  }
+}

@@ -1,0 +1,18 @@
+[project]
+name = "web6-10g-lab"
+version = "0.1.0-alpha"
+description = "Experimental 10G autonomous networking and AI-native infrastructure simulation laboratory"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: System :: Networking"
+]
+
+[project.scripts]
+10g = "cli.10g:main"
+
+[tool.setuptools.packages.find]
+include = ["simulator*", "cli*"]
